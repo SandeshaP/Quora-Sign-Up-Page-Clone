@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            background-color:rgb(210, 205, 217);
+            width: 700px;
+            height: 600px;
+            margin-top: 100px;
+            margin-left: 400px;
+        }
+        .title{
+           
+            font-size:50px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            padding: 20px;
+            color:red;
+            padding: 20px;
+            
+        }
+        .text{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: small;
+            color: black;
+            text-align: center;
+        }
+        .mainclass{
+            display: flex;
+            /* background-color: aqua; */
+            width: 100%;
+             height: 50%;
+             color: grey;
+             align-items: start;
+             border-bottom:2px solid rgb(189, 185, 185) ;
+             /* padding-left: 20px;
+             padding-right: 20px; */
+        }
+        .class1{
+            /* background-color: white; */
+            width: 50%;
+            height: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+             
+            
+        }
+        .class2{
+             border-left: 2px solid rgb(189, 185, 185);
+            /* background-color: white; */
+            width:50%;
+            height:100%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        input{
+            background-color: white;
+            height: 30px;
+            padding: 10px;
+            color: black;
+            border-color: rgb(189, 185, 185);
+        }
+        .info{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            
+        }
+        .googlelogo{
+            
+           margin-bottom: 5px;
+           margin-top: 10px;
+           padding-top: 10px;
+        }
+        .fblogo{
+            margin-bottom: 5px;
+           margin-top: 10px  
+        }
+        /* .placeholder{
+            font-size: medium;
+        } 
+        img{
+            width: fit-content;
+        }*/
+        .btn1{
+            margin: auto;
+            padding: 10px;
+            border: transparent;
+            border-radius: 20px;
+             width: 100%;
+             background-color:transparent;
+             cursor: pointer;
+        }
+        .btncl{
+            text-align: center;
+        }
+        .login{
+            color: black;
+            font-size: 15px;
+            padding-bottom: 10px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-bottom: 10px;
+            border-bottom: 2px solid rgb(189, 185, 185);
+            
+           
+        }
+        .email{
+            color: black;
+            font-size: 15px;
+            padding-bottom: 10px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-bottom: 5px;
+            
+        }
+        .passwd{
+            color: black;
+        }
+        .btn2{
+            padding: 10px;
+            width: fit-content;
+            background-color: rgb(135, 223, 235);
+            border-radius: 50px;
+            border-color: transparent;
+            justify-content:end;
+            align-self: flex-end;
+            float: right;
+            cursor: pointer;
+        }
+        .btncl2{
+            padding: 20px;
+            justify-self: right;
+            /* cursor: pointer; */
+            
+        }
+        .btncl1{
+            color: gray;
+            padding-top: 25px;
+            align-self: flex-start;
+        }
+        .x{
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+        }
+        .lang{
+            
+            padding: 20px;
+            height: 50px;
+            /* background-color: white; */
+            border-bottom:2px solid rgb(159, 156, 156) ;
+        }
+        .lang1{
+            padding: 10px;
+           
+            background-color: transparent;
+            text-align: center;
+            
+        }
+        .y{
+            padding: 20px;
+            background-color: rgb(205, 196, 196);
+        }
+        span{
+            align-self: center;
+            text-decoration: none;
+        }
+        .btn3{
+            color:black;
+             height: 50px;
+              width: 100%;
+              cursor: pointer;
+              /* background-color: rgb(58, 38, 38); */
+              border-color: solid gray;
+             
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+          <h1 class="title">Quora
+            <div class="text"> A place to share knowledge and better understand the world</div>
+         </h1>
+
+            <div class="mainclass">
+                <div class="class1">
+                    <div class="info"> By continuing you indicate that you agree to 
+                        <br>Quora's 
+                            <a style="text-decoration: none;" href="link" target="_cart">Terms of Service</a>
+                            and
+                            <a style="text-decoration: none;" href="link1" target="_main1">Privacy Policy.</a>
+                            <div class="googlelogo">
+                                <button class="btn3"><img src="Images\R.jpg" style="width:30px; background-color: transparent; float: left;"><a style="text-decoration: none; float: left; font-size: 20px;padding-left: 5px; " href="https://accounts.google.com/InteractiveLogin/signinchooser?elo=1&ifkv=ASKXGp0Z8BldJKt75QxD-XH0dIsm5jo38zfINEzuH12SGrmLWEoGgRH3qAvnPMXXuJtYq0nwrEqejw&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_main">Continue with Google</a></button>
+                            </div>
+                            <div class="fblogo">
+                                <button class="btn3"><img src="Images\facebook-logo-1-2.png" style="width:30px; background-color: transparent; float: left;"><a style="text-decoration: none; float: left; font-size: 20px;padding-left: 5px; " href="https://www.facebook.com/login.php/" target="_main">Continue with Facebook</a></button>
+                            </div>
+                            
+                            <div class="btncl">
+                                <button type="button" class="btn1"><b>Sign up with email</b></button>
+                            </div>
+                            
+                        </br>
+                    </div>
+                
+                </div>
+
+                <div class="class2">
+                    <div class="login">
+                        <b>Login</b>
+                    </div>
+
+                    <div class="email">
+                        <b>Email</b><br>
+                         <input type="text" placeholder="Your Email" size="37">
+                    </div>
+
+                    <div class="passwd">
+                          <b>Password</b><br>
+                          <input type="password" placeholder="Your password" size="37">
+                         
+                    </div> 
+                    <div class="x">
+                        <div class="btncl1">
+                            <a style="text-decoration: none; color: gray;" href="link1">Forgot password?</a>
+    
+                        </div>
+    
+                        <div class="btncl2">
+                            <button class="btn2">Sign Up</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="lang">
+                <div class="lang1">
+                    <a style="text-decoration: none; font-size: 15px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: blue;" href="link3" target="_top">हिन्दी ></a>
+                    
+                </div>
+            </div>
+
+            <div class="y">
+                <span>
+                   <a style="text-decoration: none;" href="link4">About</a> .
+                   <a style="text-decoration: none;" href="link5">Careers</a> .
+                   <a style="text-decoration: none;" href="link6">Privacy</a> .
+                    <a style="text-decoration: none;" href="link7">Terms</a> .
+                     <a style="text-decoration: none;" href="link8">Contact</a> .
+                     <a style="text-decoration: none;" href="link9">Languages</a> .
+                     <a style="text-decoration: none;" href="link10">Your Ad Choices</a> .
+                     <a style="text-decoration: none;" href="link11">Press</a> .
+                     <a style="text-decoration: none;" href="link12">Quora, Inc.2024</a>
+                </span>
+            </div>
+
+           
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>
